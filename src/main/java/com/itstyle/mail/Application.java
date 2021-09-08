@@ -29,7 +29,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication
 @EnableScheduling
-//必须配置包扫描、否则Dubbo无法注册服务.
+//必须配置包扫描、否则Dubbo无法注册服务
 @DubboComponentScan(basePackages = "com.itstyle.mail.service.impl")
 public class Application  {
 	private static final Logger logger = LoggerFactory.getLogger(Application.class);
