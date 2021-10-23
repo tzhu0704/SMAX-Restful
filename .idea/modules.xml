@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-mail.iml" filepath="$PROJECT_DIR$/spring-boot-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SMAX-restful.iml" filepath="$PROJECT_DIR$/SMAX-restful.iml" />
     </modules>
   </component>
 </project>

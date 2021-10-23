@@ -1,4 +1,4 @@
-package com.itstyle.mail.common.api;
+package com.mf.smax.common.api;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,12 +17,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 	@Bean
 	public Docket mailApi() {
-		return new Docket(DocumentationType.SWAGGER_2).groupName("邮件管理").apiInfo(apiInfo()).select()
-				.apis(RequestHandlerSelectors.basePackage("com.itstyle.mail.web")).paths(PathSelectors.any()).build();
+		return new Docket(DocumentationType.SWAGGER_2).groupName("SMAX-Restful Webhook").apiInfo(apiInfo()).select()
+				.apis(RequestHandlerSelectors.basePackage("com.mf.smax.web")).paths(PathSelectors.any()).build();
 	}
 	// 预览地址:swagger-ui.html
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("Spring 中使用Swagger2构建文档").termsOfServiceUrl("https://blog.52itstyle.com/")
-				.contact(new Contact("科帮网 ", "https://blog.52itstyle.com/", "345849402@qq.com")).version("1.1").build();
+		return new ApiInfoBuilder().title("SMAX-Restful Webhook").termsOfServiceUrl("https://www.51cto.com/")
+				.contact(new Contact("musaraňa ", "http://gnzhutan.blog.51cto.com/", "gnzhutan@outlook.com")).version("1.1").build();
 	}
 }
