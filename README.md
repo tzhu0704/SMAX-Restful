@@ -17,14 +17,16 @@ SMAX Restful Webhook 提供相关SMAX工单等实体的Restful访问，目前支
 
 ## 项目结构
 
+
+```
 ├─java
 │  └─com
 │      └─mf
 │          ├─integration
-│          │      Constants.java
+│          │      Constants.java --SMAX常量说明
 │          │      HttpUtil.java
 │          │      MyX509TrustManager.java
-│          │      SMACall.java
+│          │      SMACall.java   --SMAX交互场景实现
 │          │
 │          └─smax
 │              │  Application.java
@@ -45,7 +47,7 @@ SMAX Restful Webhook 提供相关SMAX工单等实体的Restful访问，目前支
 │                      ticketController.java
 │
 ├─resources
-│      application.properties
+│      application.properties  --SMAX实例基本配置
 │      application.yml
 │      logback.xml
 │
@@ -54,6 +56,9 @@ SMAX Restful Webhook 提供相关SMAX工单等实体的Restful访问，目前支
     │
     └─WEB-INF
             web.xml
+```
+
+
 
 
 ## Restful 接口说明
