@@ -15,6 +15,9 @@ SMAX Restful Webhook 提供相关SMAX工单等实体的Restful访问，目前支
 
 - 执行 com.mf.smax.Application.main 方法
 
+### 开单效果
+![输入图片说明](https://s7.51cto.com/images/202110/d5eba456201f5b842e0970944a3b47bd38e3fd.png?x-oss-process=image/watermark,size_14,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_10)
+
 ## 项目结构
 
 
@@ -57,6 +60,8 @@ SMAX Restful Webhook 提供相关SMAX工单等实体的Restful访问，目前支
     └─WEB-INF
             web.xml
 ```
+
+
 
 
 
