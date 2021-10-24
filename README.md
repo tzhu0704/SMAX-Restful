@@ -15,6 +15,47 @@ SMAX Restful Webhook 提供相关SMAX工单等实体的Restful访问，目前支
 
 - 执行 com.mf.smax.Application.main 方法
 
+## 项目结构
+
+├─java
+│  └─com
+│      └─mf
+│          ├─integration
+│          │      Constants.java
+│          │      HttpUtil.java
+│          │      MyX509TrustManager.java
+│          │      SMACall.java
+│          │
+│          └─smax
+│              │  Application.java
+│              │
+│              ├─common
+│              │  └─api
+│              │          SwaggerConfig.java
+│              │
+│              ├─entity
+│              │      AlertFromAlertManager.java
+│              │      QueryTicket.java
+│              │      Ticket.java
+│              │
+│              ├─test
+│              │      servicetest.java
+│              │
+│              └─web
+│                      ticketController.java
+│
+├─resources
+│      application.properties
+│      application.yml
+│      logback.xml
+│
+└─webapp
+    │  index.jsp
+    │
+    └─WEB-INF
+            web.xml
+
+
 ## Restful 接口说明
 
 - 支持Swagger2,查看接口说明方法，如下：
