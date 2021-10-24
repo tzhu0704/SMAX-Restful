@@ -18,11 +18,10 @@ SMAX Restful Webhook 提供相关SMAX工单等实体的Restful访问，目前支
 ## Restful 接口说明
 
 - 支持Swagger2,查看接口说明方法，如下：
-http://inst2.XX.XXX:8000/SMAX-Restful/swagger-ui.html
-
+http://XX.XX.XXX:8000/SMAX-Restful/swagger-ui.html
 
 具体试用说明参见51CTO Blog：
 https://blog.51cto.com/gnzhutan/4269716
 
-欢迎关注： http://gnzhutan.blog.51cto.com/
+欢迎关注： http://gnzhutan.blog.51cto.com
 
